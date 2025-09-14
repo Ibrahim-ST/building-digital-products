@@ -1,5 +1,5 @@
-import React from "react";
-import logo from '../../assets/logo.svg';
+import React from "react"; 
+import Logo from "../../utils/Logo/Logo";
 
 const Header = () => {
   return (
@@ -7,16 +7,7 @@ const Header = () => {
       <header class="fixed w-full">
         <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
           <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-            <a href="#" class="flex items-center">
-              <img
-                src={logo}
-                class="h-6 mr-3 sm:h-9"
-                alt="Landwind Logo"
-              />
-              <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                Learn with Sumit
-              </span>
-            </a>
+            <Logo />
             <div class="flex items-center lg:order-2">
               <a
                 href="#"
